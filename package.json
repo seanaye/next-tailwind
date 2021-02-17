@@ -1,0 +1,38 @@
+{
+  "name": "next-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "codegen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "autoprefixer": "^10.2.4",
+    "graphql": "^15.5.0",
+    "next": "10.0.6",
+    "next-fonts": "^1.5.1",
+    "postcss": "^8.2.5",
+    "preact": "^10.5.12",
+    "preact-render-to-string": "^5.1.12",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "react-responsive-masonry": "^2.1.1",
+    "react-ssr-prepass": "npm:preact-ssr-prepass",
+    "tailwindcss": "^2.0.3",
+    "urql": "^2.0.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.20.1",
+    "@graphql-codegen/typescript": "^1.21.0",
+    "@graphql-codegen/typescript-operations": "^1.17.14",
+    "@graphql-codegen/typescript-urql": "^2.0.3",
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "next-urql": "^3.0.0",
+    "typescript": "^4.1.4"
+  }
+}
